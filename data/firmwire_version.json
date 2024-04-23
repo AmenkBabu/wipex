@@ -1,0 +1,59 @@
+{
+  "Linksys WRT54G": {
+    "versions": [
+      "1.0",
+      "1.1",
+      "2.0",
+      "2.1",
+      "3.0",
+      "4.0"
+    ],
+    "known_vulnerabilities": [
+      {
+        "cve": "CVE-2005-1269",
+        "description": "Remote Code Execution"
+      },
+      {
+        "cve": "CVE-2013-2618",
+        "description": "Cross-Site Request Forgery"
+      }
+    ]
+  },
+  "TP-Link TL-WR841N": {
+    "versions": [
+      "7.0",
+      "8.0",
+      "9.0",
+      "9.1",
+      "9.2"
+    ],
+    "known_vulnerabilities": [
+      {
+        "cve": "CVE-2017-13772",
+        "description": "Unauthenticated Remote Code Execution"
+      },
+      {
+        "cve": "CVE-2018-10561",
+        "description": "Cross-Site Scripting"
+      }
+    ]
+  },
+  "Netgear R6400": {
+    "versions": [
+      "1.0",
+      "1.1",
+      "2.0",
+      "2.1"
+    ],
+    "known_vulnerabilities": [
+      {
+        "cve": "CVE-2016-6277",
+        "description": "Unauthenticated Firmware Upgrade"
+      },
+      {
+        "cve": "CVE-2019-5054",
+        "description": "Command Injection"
+      }
+    ]
+  }
+}
